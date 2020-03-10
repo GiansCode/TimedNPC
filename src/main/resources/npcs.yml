@@ -1,0 +1,9 @@
+#dealer:
+#  NPCs: ### An integer list with all the NPCs IDs (from Citizens)
+#    - 0
+#    - 2
+#    - 3
+#  changeEvery: '12h' ### How much time should pass for every NPC rotate
+#  location: 'world:0:0:0:0:0' ### The location of the NPC in this format: world:x:y:z:yaw:pitch
+#  lastChange: 0
+#  lastNPC: 0

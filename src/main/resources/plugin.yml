@@ -1,0 +1,10 @@
+name: TimedNPC
+author: xQuickGlare
+version: 1.0
+main: it.xquickglare.timednpc.TimedNPCPlugin
+depend: [Citizens, HolographicDisplays, PlaceholderAPI]
+commands:
+  setpersonalnpc:
+    description: This command creates a new personal NPC
+  settimednpc:
+    description: This command creates a new timed NPC

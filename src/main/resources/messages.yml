@@ -1,0 +1,13 @@
+commands:
+  noPermission: '&cYou don''t have the permission for execute this command'
+  setPersonalNPC:
+    usage: '&cUsage: /setpersonalnpc <id>'
+    alreadyExist: '&cA Personal NPC with this ID already exist'
+    created: '&aPersonal NPC created, change the config file'
+  setTimedNPC:
+    usage: '&cUsage: /settimednpc <id> <time> <a list of npcs>'
+    alreadyExist: '&cA Timed NPC with this ID already exist'
+    noValidTime: '&cThe time you''ve put is not valid'
+    noValidNPCId: '&cOne NPC ID is not valid'
+    npcNotFound: '&cThe %npcID doesn''t exist'
+    created: '&aTimed NPC created.'

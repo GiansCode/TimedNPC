@@ -1,0 +1,10 @@
+#stats:
+#  name: '&6Stats'
+#  location: 'world:0:0:0:0:0'
+#  hologramLocation: 'world:0:0:0:0:0'
+#  hologramText:
+#   - '&6Test Hologram'
+#    - '&6Hi, %player_name%'
+#  commands:
+#    - '[PLAYER] me I''ve clicked an NPC'
+#    - '[CONSOLE] say %player% clicked an NPC'
