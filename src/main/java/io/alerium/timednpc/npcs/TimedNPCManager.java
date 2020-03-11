@@ -1,7 +1,7 @@
-package it.xquickglare.timednpc.npcs;
+package io.alerium.timednpc.npcs;
 
-import it.xquickglare.timednpc.TimedNPCPlugin;
-import it.xquickglare.timednpc.utils.TimeUtil;
+import io.alerium.timednpc.TimedNPCPlugin;
+import io.alerium.timednpc.utils.TimeUtil;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.configuration.ConfigurationSection;

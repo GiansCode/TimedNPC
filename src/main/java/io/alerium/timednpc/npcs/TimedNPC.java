@@ -1,4 +1,4 @@
-package it.xquickglare.timednpc.npcs;
+package io.alerium.timednpc.npcs;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

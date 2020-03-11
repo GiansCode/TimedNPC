@@ -1,6 +1,6 @@
-package it.xquickglare.timednpc.utils.configuration;
+package io.alerium.timednpc.utils.configuration;
 
-import it.xquickglare.timednpc.utils.LocationSerialize;
+import io.alerium.timednpc.utils.LocationSerialize;
 import lombok.Getter;
 import org.bukkit.Location;
 import org.bukkit.configuration.file.FileConfiguration;

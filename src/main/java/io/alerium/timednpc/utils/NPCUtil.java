@@ -1,8 +1,8 @@
-package it.xquickglare.timednpc.utils;
+package io.alerium.timednpc.utils;
 
 import com.mojang.authlib.GameProfile;
-import it.xquickglare.timednpc.TimedNPCPlugin;
-import it.xquickglare.timednpc.personal.PersonalNPC;
+import io.alerium.timednpc.personal.PersonalNPC;
+import io.alerium.timednpc.TimedNPCPlugin;
 import net.minecraft.server.v1_15_R1.*;
 import org.bukkit.Bukkit;
 import org.bukkit.craftbukkit.v1_15_R1.entity.CraftPlayer;

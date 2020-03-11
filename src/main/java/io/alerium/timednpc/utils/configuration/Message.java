@@ -1,4 +1,4 @@
-package it.xquickglare.timednpc.utils.configuration;
+package io.alerium.timednpc.utils.configuration;
 
 import com.destroystokyo.paper.Title;
 import org.bukkit.Bukkit;

@@ -1,7 +1,7 @@
 name: TimedNPC
 author: xQuickGlare
 version: 1.0
-main: it.xquickglare.timednpc.TimedNPCPlugin
+main: io.alerium.timednpc.TimedNPCPlugin
 depend: [Citizens, HolographicDisplays, PlaceholderAPI]
 commands:
   setpersonalnpc:

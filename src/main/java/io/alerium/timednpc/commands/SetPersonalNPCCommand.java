@@ -1,6 +1,6 @@
-package it.xquickglare.timednpc.commands;
+package io.alerium.timednpc.commands;
 
-import it.xquickglare.timednpc.utils.Command;
+import io.alerium.timednpc.utils.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.entity.Player;

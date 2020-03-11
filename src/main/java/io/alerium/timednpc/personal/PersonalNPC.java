@@ -1,9 +1,9 @@
-package it.xquickglare.timednpc.personal;
+package io.alerium.timednpc.personal;
 
 import com.gmail.filoghost.holographicdisplays.api.Hologram;
 import com.gmail.filoghost.holographicdisplays.api.HologramsAPI;
-import it.xquickglare.timednpc.TimedNPCPlugin;
-import it.xquickglare.timednpc.utils.NPCUtil;
+import io.alerium.timednpc.TimedNPCPlugin;
+import io.alerium.timednpc.utils.NPCUtil;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;

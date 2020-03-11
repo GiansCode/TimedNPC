@@ -1,6 +1,6 @@
-package it.xquickglare.timednpc.npcs.listener;
+package io.alerium.timednpc.npcs.listener;
 
-import it.xquickglare.timednpc.TimedNPCPlugin;
+import io.alerium.timednpc.TimedNPCPlugin;
 import net.citizensnpcs.api.event.CitizensEnableEvent;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;

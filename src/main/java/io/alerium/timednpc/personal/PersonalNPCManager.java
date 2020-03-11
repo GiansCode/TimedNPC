@@ -1,6 +1,6 @@
-package it.xquickglare.timednpc.personal;
+package io.alerium.timednpc.personal;
 
-import it.xquickglare.timednpc.TimedNPCPlugin;
+import io.alerium.timednpc.TimedNPCPlugin;
 import lombok.Getter;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;

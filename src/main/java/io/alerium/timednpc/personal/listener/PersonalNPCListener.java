@@ -1,8 +1,8 @@
-package it.xquickglare.timednpc.personal.listener;
+package io.alerium.timednpc.personal.listener;
 
 import com.destroystokyo.paper.event.player.PlayerUseUnknownEntityEvent;
-import it.xquickglare.timednpc.TimedNPCPlugin;
-import it.xquickglare.timednpc.personal.PersonalNPC;
+import io.alerium.timednpc.TimedNPCPlugin;
+import io.alerium.timednpc.personal.PersonalNPC;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerQuitEvent;

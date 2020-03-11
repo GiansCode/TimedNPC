@@ -1,4 +1,4 @@
-package it.xquickglare.timednpc.utils;
+package io.alerium.timednpc.utils;
 
 import java.util.concurrent.TimeUnit;
 

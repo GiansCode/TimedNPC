@@ -1,6 +1,6 @@
-package it.xquickglare.timednpc.utils;
+package io.alerium.timednpc.utils;
 
-import it.xquickglare.timednpc.TimedNPCPlugin;
+import io.alerium.timednpc.TimedNPCPlugin;
 import lombok.RequiredArgsConstructor;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;

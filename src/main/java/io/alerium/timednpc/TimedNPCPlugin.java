@@ -1,15 +1,15 @@
-package it.xquickglare.timednpc;
+package io.alerium.timednpc;
 
 import com.gmail.filoghost.holographicdisplays.api.Hologram;
 import com.gmail.filoghost.holographicdisplays.api.HologramsAPI;
-import it.xquickglare.timednpc.commands.SetPersonalNPCCommand;
-import it.xquickglare.timednpc.commands.SetTimedNPCCommand;
-import it.xquickglare.timednpc.npcs.listener.TimedNPCListener;
-import it.xquickglare.timednpc.npcs.TimedNPCManager;
-import it.xquickglare.timednpc.npcs.TimedPlaceholder;
-import it.xquickglare.timednpc.personal.PersonalNPCManager;
-import it.xquickglare.timednpc.personal.listener.PersonalNPCListener;
-import it.xquickglare.timednpc.utils.configuration.YAMLConfiguration;
+import io.alerium.timednpc.commands.SetPersonalNPCCommand;
+import io.alerium.timednpc.commands.SetTimedNPCCommand;
+import io.alerium.timednpc.npcs.TimedNPCManager;
+import io.alerium.timednpc.npcs.TimedPlaceholder;
+import io.alerium.timednpc.personal.PersonalNPCManager;
+import io.alerium.timednpc.personal.listener.PersonalNPCListener;
+import io.alerium.timednpc.utils.configuration.YAMLConfiguration;
+import io.alerium.timednpc.npcs.listener.TimedNPCListener;
 import lombok.Getter;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.PluginManager;

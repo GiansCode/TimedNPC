@@ -1,8 +1,8 @@
-package it.xquickglare.timednpc.commands;
+package io.alerium.timednpc.commands;
 
-import it.xquickglare.timednpc.utils.Command;
-import it.xquickglare.timednpc.utils.NumberUtil;
-import it.xquickglare.timednpc.utils.TimeUtil;
+import io.alerium.timednpc.utils.Command;
+import io.alerium.timednpc.utils.NumberUtil;
+import io.alerium.timednpc.utils.TimeUtil;
 import net.citizensnpcs.api.CitizensAPI;
 import net.citizensnpcs.api.npc.NPCRegistry;
 import org.bukkit.command.CommandSender;

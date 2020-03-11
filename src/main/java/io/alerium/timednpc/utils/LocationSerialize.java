@@ -1,4 +1,4 @@
-package it.xquickglare.timednpc.utils;
+package io.alerium.timednpc.utils;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
