@@ -7,4 +7,4 @@
 #    - '&6Hi, %player_name%'
 #  commands:
 #    - '[PLAYERCOMMAND] me I''ve clicked an NPC'
-#    - '[CONSOLECOMMAND] say %player% clicked an NPC'
+#    - '[CONSOLECOMMAND] say %player_name% clicked an NPC'

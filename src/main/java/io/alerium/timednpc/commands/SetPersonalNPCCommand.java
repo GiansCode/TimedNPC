@@ -33,7 +33,7 @@ public class SetPersonalNPCCommand extends Command {
         plugin.getPersonalConfig().setLocation(id + ".location", player.getLocation());
         plugin.getPersonalConfig().setLocation(id + ".hologramLocation", player.getLocation().clone().add(0, 3, 0));
         section.set("hologramText", Arrays.asList("&6Test Hologram", "&6Hi %player_name%"));
-        section.set("commands", Arrays.asList("[PLAYER] me I''ve clicked an NPC", "[CONSOLE] say %player% clicked an NPC"));
+        section.set("commands", Arrays.asList("[PLAYERCOMMAND] me I''ve clicked an NPC", "[CONSOLECOMMAND] say %player_name% clicked an NPC"));
         
         plugin.getPersonalConfig().save();
         
