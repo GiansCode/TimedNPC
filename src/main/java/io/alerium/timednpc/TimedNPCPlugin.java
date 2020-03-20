@@ -10,6 +10,7 @@ import io.alerium.timednpc.personal.PersonalNPCManager;
 import io.alerium.timednpc.personal.listener.PersonalNPCListener;
 import io.alerium.timednpc.utils.configuration.YAMLConfiguration;
 import io.alerium.timednpc.npcs.listener.TimedNPCListener;
+import io.samdev.actionutil.ActionUtil;
 import lombok.Getter;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.PluginManager;
@@ -25,6 +26,8 @@ public class TimedNPCPlugin extends JavaPlugin{
 
     @Getter private TimedNPCManager timedNPCManager;
     @Getter private PersonalNPCManager personalNPCManager;
+    
+    @Getter private ActionUtil actionUtil;
     
     @Override
     public void onEnable() {
@@ -60,6 +63,8 @@ public class TimedNPCPlugin extends JavaPlugin{
         
         personalNPCManager = new PersonalNPCManager();
         personalNPCManager.enable();
+        
+        actionUtil = ActionUtil.init(this);
     }
     
     private void registerListeners() {

@@ -8,7 +8,6 @@ import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 import me.clip.placeholderapi.PlaceholderAPI;
-import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.entity.Player;
 
@@ -59,14 +58,7 @@ public class PersonalNPC {
     }
     
     public void executeCommands(Player player) {
-        for (String command : commands) {
-            String commandExec = command.substring(command.indexOf("]")).replaceAll("%player%", player.getName());
-
-            if (command.startsWith("[CONSOLE]"))
-                Bukkit.dispatchCommand(Bukkit.getConsoleSender(), commandExec);
-            else if (command.startsWith("[PLAYER]"))
-                Bukkit.dispatchCommand(player, commandExec);
-        }
+        TimedNPCPlugin.getInstance().getActionUtil().executeActions(player, commands);
     }
     
 }

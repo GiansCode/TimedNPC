@@ -6,5 +6,5 @@
 #   - '&6Test Hologram'
 #    - '&6Hi, %player_name%'
 #  commands:
-#    - '[PLAYER] me I''ve clicked an NPC'
-#    - '[CONSOLE] say %player% clicked an NPC'
+#    - '[PLAYERCOMMAND] me I''ve clicked an NPC'
+#    - '[CONSOLECOMMAND] say %player% clicked an NPC'
